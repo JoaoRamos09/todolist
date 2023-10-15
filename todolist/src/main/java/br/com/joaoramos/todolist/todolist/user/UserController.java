@@ -25,7 +25,7 @@ public class UserController {
     public ResponseEntity createdUser(@RequestBody UserModel userModel){
         UserModel findUsername = iUserRepository.findByUsername(userModel.getUsername());
         if (findUsername != null){
-            return ResponseEntity.status(HttpStatus.BAD_REQUEST).body("Usuário já existe");
+            return ResponseEntity.status(HttpStatus.BAD_REQUEST).body("Usuário já existe. ");
         }
         String passwordCrypto = BCrypt.withDefaults().hashToString(12, userModel.getPassword().toCharArray());
         userModel.setPassword(passwordCrypto);
