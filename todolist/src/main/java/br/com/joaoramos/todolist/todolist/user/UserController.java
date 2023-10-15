@@ -31,7 +31,7 @@ public class UserController {
         userModel.setPassword(passwordCrypto);
 
         UserModel userCreated = iUserRepository.save(userModel);
-        return ResponseEntity.status(HttpStatus.ACCEPTED).body(userCreated);
+        return ResponseEntity.status(HttpStatus.OK).body(userCreated);
 
     }
 }
