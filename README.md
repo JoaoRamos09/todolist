@@ -45,7 +45,7 @@ O sistema oferece os seguintes endpoints da API:
 
 - `GET /tasks/`: Obtém a lista de todas as tarefas que o usuário criou. *
 
-* É necessário autenticar o usuário e password na hora da requisição, Auth -> Basic Auth.
+*** É necessário autenticar o usuário e password na hora da requisição, Auth -> Basic Auth.
 
 ## Contribuição
 
