@@ -1,4 +1,4 @@
-# Sistema de Vagas de Trabalho
+# Sistema de Tarefas
 
 Este é um projeto guiado realizado pela Rockseat. O projeto é um sistema de todolist, no qual é possível cadastrar, coletar e atualizar . Além disso, o sistema possui autenticação por usuário e password.
 
